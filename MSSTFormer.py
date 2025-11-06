@@ -303,7 +303,7 @@ class STEncoderBlock(nn.Module):
         return x
 
 
-class PDFormer(AbstractTrafficStateModel):
+class MSSTFormer(AbstractTrafficStateModel):
     def __init__(self, config, data_feature):
         super().__init__(config, data_feature)
 
